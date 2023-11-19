@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+
+/* *{
+    margin: 1px;
+    padding: 1px; 
+    background-color: rgb(249, 253, 251); */
+/* 
+  } */
+.header{
+    background-color: #171d20;
+}
+.h1{
+    margin: 0;
+    padding: 0;
+    font-family: "Sedgwick", sans-serif, 'Lucida Sans', -apple-system;
+    font-size: 1.8rem;
+    background: #171d20;
+    color: #fff;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}  
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: "ubuntu", sans-serif, 'Lucida Sans', -apple-system;
+    font-size: 1.2rem;
+    background: #171d20;
+    color: #fff;
+    display: grid;
+    place-content: center;
+    height: justify;
+}
+
+.contenedor{
+    background-color: rgb(71, 138, 62);
+    padding: 10px;
+    display: flex; 
+    grid-template-columns: 25% 25% 25% 25%; 
+    font-family: "ubuntu", sans-serif, 'Lucida Sans', -apple-system;
+    justify-content: start;
+    justify-content: space-evenly; 
+
+    grid-template-rows: 400px 300px 300px 300px; 
+    /* Cambio alineaciones de las filas */
+    /* align-content: start;  */
+     /* Cambio valores de alineación */
+    align-content: end;
+    align-content: center; 
+    align-content: space-between; 
+    align-content: space-around; 
+    align-content: space-evenly; 
+
+
+ } 
+.hijo{
+    background-color: rgb(26, 171, 164);
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #ff4656;
+}
+
+.card {
+  max-width: 300px;
+  background: #51646e;
+  border: 1px solid #343637;
+  position: relative;
+  overflow: hidden;
+  
+}
+.card .image-container {
+  width: 100%;
+  height: 170px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
